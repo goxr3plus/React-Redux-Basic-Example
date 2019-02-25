@@ -36,7 +36,7 @@ class Counter extends Component {
 
   render() {
     return (
-      <div>
+      <div> 
         <CounterOutput value={this.props.ctr} />
         <CounterControl
           label="Increment"
