@@ -1,10 +1,10 @@
-import * as actionTypes from "../actions"
+import * as actionTypes from "../actions/actions"
 
 const initialState = {
    results: [],
 }
 
-const reducer = (state = initialState, action) => {
+const resultReducer = (state = initialState, action) => {
    switch (action.type) {
       case actionTypes.STORE_RESULT:
          return {
@@ -23,4 +23,4 @@ const reducer = (state = initialState, action) => {
    }
 }
 
-export default reducer
+export default resultReducer

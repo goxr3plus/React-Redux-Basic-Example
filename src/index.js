@@ -5,8 +5,8 @@ import { applyMiddleware, combineReducers, compose, createStore } from "redux"
 import App from "./App"
 import "./index.css"
 import registerServiceWorker from "./registerServiceWorker"
-import counterReducer from "./store/reducers/counter"
-import resultReducer from "./store/reducers/result"
+import counterReducer from "./store/reducers/counterReducer"
+import resultReducer from "./store/reducers/resultReducer"
 
 const rootReducer = combineReducers({
    reducer1: counterReducer,
